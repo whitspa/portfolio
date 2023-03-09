@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import Home from "./Home";
-import Aboutme from "./Aboutme";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Resume from ".Resume";
 import Header from "./Header";
+import Navigation from "./Navigation";
+import Home from "./pages/Home";
+import Aboutme from "./pages/Aboutme";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
+
 import Footer from "./Footer";
 
 function Wrapper () { 
