@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Aboutme() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className='section-heading container'>
+      <h2 className='page-heading'>About Me</h2>
       <p>
         Hello. My name is Whit Spaulding. I am a software engineer and a
         small business consultant who has worked with clients in retail, manufacturing,

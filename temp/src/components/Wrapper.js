@@ -36,3 +36,6 @@ function Wrapper () {
         <Footer />
         </main>)
 }
+
+
+export default Wrapper;
