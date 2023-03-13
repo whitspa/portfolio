@@ -1,10 +1,11 @@
+import logo from './logo.svg';
 import './App.css';
-import portfolio from './components/portfolio';
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="portfolio-app">
-      <portfolio />
+    <div className="App">
+     <Wrapper />
     </div>
   );
 }
