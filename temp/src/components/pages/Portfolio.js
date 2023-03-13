@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import projects from "./resources/projects.json"
+import projects from "./projects.json"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -12,14 +12,14 @@ export default function Portfolio() {
         {projectdetail.map((project, key) => {
           return (
             <Card key={key} style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL + project.screnshot} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL +"/images/" + project.screenshot} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>
                 {project.description}
                 </Card.Text>
-                <Button variant="primary"><a href={project.live} rel="noreferrer" target="_blank">LIVE</a></Button>
-                <Button variant="primary"><a href={project.github} rel="noreferrer"target="_blank">github</a></Button>
+                <Button variant="primary"className="text-white"><a href={project.live} className="portfolio-links" rel="noreferrer" target="_blank">LIVE</a></Button>
+                <Button variant="primary"><a href={project.github} className="portfolio-links" rel="noreferrer"target="_blank">github</a></Button>
               </Card.Body>
             </Card>
           )

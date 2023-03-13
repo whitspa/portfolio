@@ -17,16 +17,18 @@ const Header = (props)=>{
               <Nav.Link href="#portfolio"onClick={()=>props.getCurrentComponent("portfolio")}>portfolio</Nav.Link>
               <Nav.Link href="#contact"onClick={()=>props.getCurrentComponent("contact")}>contact</Nav.Link>
               <Nav.Link href="#resume"onClick={()=>props.getCurrentComponent("resume")}>resume</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>no
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown title="Social Profile" id="basic-nav-dropdown">
+                <NavDropdown.Item target="_blank"  rel="noreferrer" href="https://github.com/whitspa">
+                  github
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
+                <NavDropdown.Item  target="_blank" rel="noreferrer" href="www.linkedin.com/in/whit-spaulding">
+                  linkedin
+                </NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">
                   Separated link
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
