@@ -22,7 +22,7 @@ const Header = (props)=>{
                   github
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item  target="_blank" rel="noreferrer" href="www.linkedin.com/in/whit-spaulding">
+                <NavDropdown.Item  target="_blank" rel="noreferrer" href="https://linkedin.com/in/whit-spaulding">
                   linkedin
                 </NavDropdown.Item>
                 {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>

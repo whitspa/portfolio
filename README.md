@@ -25,7 +25,7 @@
   
 ## Usage:
  
- To utilize the portfolio: Go to VScode. npm i and then npm start runs the app in development mode.
+ To utilize the portfolio: Go to VScode. "npm i" and then "npm start" runs the app in development mode.
  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   ---
  
@@ -58,7 +58,7 @@
   * Email Address: whitspa64@duck.com
 
 ## Link to the deployed application
-https://drive.google.com/file/d/113WjFXDYsxbMCP15zEpLe0ZWGWsbYb0i/view
+https://whitspa.github.io/portfolio/
   
  
   A screen shot of the application is below:
