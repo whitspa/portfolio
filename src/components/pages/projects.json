@@ -1,6 +1,15 @@
 [
     {
         "id":"1",
+        "title":"Vacation Planner",
+        "description":"Group Project 03",
+        "screenshot":"landingpagescreenshot.png",
+        "github":"https://github.com/whitspa/dreamvacation",
+        "live":"https://safe-inlet-96324.herokuapp.com/"
+    },
+    
+    {
+        "id":"2",
         "title":"Employee Tracker",
         "description":"This Content Management System (CMS) utilizes Node.js, Inquirer, and MySQLto manage a company's employee database.",
         "screenshot":"employeetrackerscreenshot.png",
@@ -9,7 +18,7 @@
     },
 
     {
-        "id":"2",
+        "id":"3",
         "title":"Note Taker",
         "description":"This Note Taker app can be used to write and save notes. It uses an Express.js back end and saves and retrieves note data to a JSON file.",
         "screenshot":"notetakerscreenshot.png",
@@ -18,7 +27,7 @@
     },
 
     {
-        "id":"3",
+        "id":"4",
         "title":"Readme Generator",
         "description":"Application which creates professional README based on user input",
         "screenshot":"readmegeneratorscreenshot.png",
@@ -27,7 +36,7 @@
     },
 
     {
-        "id":"4",
+        "id":"5",
         "title":"Social Network API",
         "description":"Social network web app where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
         "screenshot":"getallusersscreenshot.png",
@@ -36,7 +45,7 @@
     },
 
     {
-        "id":"5",
+        "id":"6",
         "title":"Weather Dashboard",
         "description":"This App utilizes the openweather API to allow the user to see the weather outlook for multiple cities.",
         "screenshot":"weatherdashboardscreenshot.png",
@@ -45,21 +54,12 @@
     },
 
     {
-        "id":"6",
+        "id":"7",
         "title":"Ecommerce Back End",
         "description":"Back end solution for an E Commerce site utilizing sequelize and RESTful API.",
         "screenshot":"ecommerce-backend-w-route-testing.png",
         "github":"https://github.com/whitspa/ecommerce-backend.git",
         "live":"https://drive.google.com/file/d/1HJWA0CPuimX5YkDmwSOd1gUO8atoXjPI/view"
-    },
-
-    {
-        "id":"7",
-        "title":"Vacation Planner",
-        "description":"Group Project 03",
-        "screenshot":"landingpagescreenshot.png",
-        "github":"https://github.com/whitspa/dreamvacation",
-        "live":"https://safe-inlet-96324.herokuapp.com/"
     }
 
 ]
