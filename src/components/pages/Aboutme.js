@@ -13,7 +13,7 @@ export default function Aboutme() {
         completed on my way to becoming a full stack web developer. I look forward to working
         with you!
       </p>
-      <Card.Img variant="top" src={process.env.PUBLIC_URL +"/images/avatar.png"} />
+      <Card.Img variant="top" src={process.env.PUBLIC_URL +"/images/headshotone.jpg"} />
     </div>
   );
 }

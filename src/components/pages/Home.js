@@ -5,7 +5,8 @@ export default function Home() {
     <div className='section-heading container'>
       <h2 className='page-heading'>Home</h2>
       <div className="home-container d-flex justify-content-center align-items-center">
-        <h3>  “Innovation distinguishes between a leader and a follower.”<span>-- by Steve Jobs</span> </h3>
+        <h3>  “Leadership at its core is about harnessing others' efforts to achieve something no one can achieve alone.”
+<span> ― Amy C. Edmondson, The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth</span> </h3>
 
       </div>
 
